@@ -3,11 +3,8 @@ import React from 'react';
 const Nav = () => {
     return (
         <nav className="navigation">
-            <li>Link1</li>
-            <li>Link2</li>
-            <li>Link3</li>
-            <li>Link4</li>
-            <li>Link5</li>
+            <li>About Me</li>
+            <li>Contact Me</li>
         </nav>
     )
 }
