@@ -9,6 +9,7 @@ export default class MainContainer extends React.Component {
         <div className = "main">
             <Banner />
             <Nav />
+            <p id="discount">Special Promotion: Buy 12 and Get Your 13th Peice Free!!!!</p>
             <CardContainer />
         </div>
         )

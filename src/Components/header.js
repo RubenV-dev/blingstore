@@ -6,6 +6,7 @@ const Banner = () => {
         <div className='banner'>
             <img src={Blingpic} alt="blingpic"/>
             <div> Buy Your Bling Now!</div>
+            <div>Get Your Jennifer Stuff TODAY!</div>
         </div>
     )
 }
