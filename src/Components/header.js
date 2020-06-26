@@ -5,8 +5,12 @@ const Banner = () => {
     return (
         <div className='banner'>
             <img src={Blingpic} alt="blingpic"/>
-            <div> Buy Your Bling Now!</div>
-            <div>Get Your Jennifer Stuff TODAY!</div>
+            <div id="head-info"> 
+                <p>Buy Your Bling Today!</p>
+                <p>Buy 12 and get your 13th peice Free!!</p>
+                <p>All purchases subject to shipping fee </p>
+            </div>
+            
         </div>
     )
 }
