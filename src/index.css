@@ -8,6 +8,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: rgb(255,182,193);
 }
+@font-face {
+  font-family: Notable;
+  src: url(https://fonts.googleapis.com/css2?family=Notable&display=swap)
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -18,7 +22,7 @@ code {
   display: flex;
   /* justify-content: space-evenly; */
   /* margin-left: auto; */
-  background: rgba(0, 0, 0, 0.8);
+  background: black;
   color: white;
 }
 
@@ -67,21 +71,36 @@ code {
   display: flex;
 }
 
+.banner img {
+  width: 30vw;
+  /* min-height: 10vh; */
+}
+
 #head-info {
   color: rgb(231, 14, 181);
   width: 100%;
   background-color: black;
+  font-family: Notable;
+}
+
+#head-info p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 1.8vmin;
 }
 
 #discount {
-  background-image: url("./IMG_4760.jpg") ;
-  height: 800px;
-  width: 100%;
+  background-image: url("https://d1g145x70srn7h.cloudfront.net/files/4cea4f5e82c44c6e28f6ecfa3561bc4738768911/original.jpeg") ;
+  min-height: 30vh;
+  /* width: 100vw; */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  color: yellow;
-  font-family: 'Notable', sans-serif;
+  color: rgb(255, 166, 193);
   margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Notable;
+  font-size: 2rem;
+  font-weight: bold;
 }
