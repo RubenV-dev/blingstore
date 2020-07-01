@@ -16,7 +16,7 @@ code {
 
 .navigation {
   display: flex;
-  justify-content: space-evenly;
+  /* justify-content: space-evenly; */
   /* margin-left: auto; */
   background: rgba(0, 0, 0, 0.8);
   color: white;
@@ -24,7 +24,12 @@ code {
 
 .navigation li {
   list-style: none;
+  border: 1px solid rgb(238, 9, 97);
+  border-radius: 10px;
+  background-color: rgb(240, 11, 156);
+  color: rgb(253, 255, 255);
 }
+
 
 .cards {
     text-decoration: none;
@@ -78,4 +83,5 @@ code {
   background-size: cover;
   color: yellow;
   font-family: 'Notable', sans-serif;
+  margin-top: 0px;
 }
